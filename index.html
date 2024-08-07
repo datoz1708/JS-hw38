@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <script>
+      document.write(`Current URL: ${window.location.href}`, "<br><br>");
+
+      function redirectToW3Schools() {
+        location.href = "https://www.w3schools.com";
+      }
+
+      function refreshPage() {
+        location.reload();
+      }
+    </script>
+
+    <button onclick="redirectToW3Schools()">Take me to w3schools.com</button>
+    <br><br>
+    <button onclick="refreshPage()">Refresh Page</button>
+
+</body>
+</html>
